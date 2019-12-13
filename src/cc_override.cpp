@@ -14,3 +14,10 @@ method0(double a) {
     return "double";
 }
 
+std::string method1(int a, double b) {
+    return std::string("int and double");
+}
+
+std::string method1(double a, int b) {
+    return std::string("double and int");
+}
