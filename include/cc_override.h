@@ -9,6 +9,12 @@
 #include <string>
 
 std::string
+method2(int a);
+
+std::string
+method2(int a, int b);
+
+std::string
 method1 (int a, double b);
 
 std::string

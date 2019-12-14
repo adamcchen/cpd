@@ -20,3 +20,11 @@ TEST(test_override, same_func_name_but_param_order_diff) {
     EXPECT_EQ(method1(a, b), "int and double");
     EXPECT_EQ(method1(b, a), "double and int");
 }
+
+TEST(test_override, same_func_name_but_param_num_diff) {
+    auto a = int{0};
+    auto b = int{0};
+
+    EXPECT_EQ(method2(a), "int");
+    EXPECT_EQ(method2(a, b), "int and int");
+}
