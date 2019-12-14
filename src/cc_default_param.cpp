@@ -8,3 +8,10 @@ int
 add(int a, int b) {
     return a + b;
 }
+
+#if 0 // don't
+int
+add(int a, int b = 1) {
+    return a + b;
+}
+#endif

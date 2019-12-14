@@ -8,4 +8,9 @@
 int
 add (int a, int b = 1);
 
+#if 0 // don't
+int
+add (int a = 1, int b);
+#endif
+
 #endif //CPP_STUDY_CC_DEFAULT_PARAM_H
