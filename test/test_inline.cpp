@@ -9,3 +9,6 @@ TEST(test_inline, declare_and_definition_inline_func_together) {
     EXPECT_EQ(max(1, 2), 2);
 }
 
+TEST(test_inline, declare_and_definition_inline_func_seperate) {
+    EXPECT_EQ(min(1, 2), 1);
+}
